@@ -131,7 +131,7 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #ffd9ef;
+  color: crimson;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -185,18 +185,30 @@ h2 {
 
 @media screen {
     body {
-      background-color: pink;
+    }
+    .title{
+      font-size: 80px;
     }
   }
   
 @media screen and (min-width: 301px) and (max-width: 600px)  {
     body {
-      background-color: crimson;
+    }
+    .title{
+      font-size: 50px;
     }
   }
-  
-@media screen and (max-width: 300px) {
+
+@media screen and (max-width: 340px) {
     body {
-      background-color: #69F7BE;
     }
+    .title{
+      font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+  .image{
+    width:100px;
+  }
 }
